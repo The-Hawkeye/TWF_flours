@@ -4,7 +4,7 @@ const translateText = async(req,res)=>{
     try{
 
         const {text} = req.body;
-        // console.log(text);
+        console.log(text);
     
         if(!text)
         {
