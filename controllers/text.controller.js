@@ -15,6 +15,8 @@ const translateText = async(req,res)=>{
         }
     
         const translatedString = await translateString(text);
+
+        console.log(translateString);
     
         res.json({
             status:"success",
